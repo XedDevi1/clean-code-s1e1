@@ -19,20 +19,22 @@
     <main>
       <div class="main__container-main">
         <form id="form-add-item">
-          <label class="form__new-task-label" for="new-task">Add Item</label>
-          <div class="form__add-item-container">
-            <input 
-              id="new-task"
-              class="task__item task__input" 
-              type="text">
-            <button class="button">Add</button>
-          </div>
+          <p>
+            <label class="form__new-task-label" for="new-task">Add Item</label>
+            <div class="form__add-item-container">
+              <input 
+                id="new-task"
+                class="task__item task__input" 
+                type="text">
+              <button class="button" type="button">Add</button>
+            </div>
+          </p>
         </form>
         <section>
           <h3 class="title">Todo</h3>
           <ul id="section__incomplete-tasks">
             <li class="task__list-item">
-              <input class="checkbox-input" type="checkbox">
+              <input class="task__checkbox-input" type="checkbox">
               <label class="task__item">Pay Bills</label>
               <input type="text" class="task__item task__input">
               <button class="task__edit-button button">Edit</button>
@@ -41,7 +43,7 @@
               </button>
             </li>
             <li class="task__edit--mode task__list-item">
-              <input class="checkbox-input" type="checkbox">
+              <input class="task__checkbox-input" type="checkbox">
               <label class="task__item">Go Shopping</label>
               <input type="text" value="Go Shopping" class="task__item task__input">
               <button class="task__edit-button button">Save</button>
@@ -53,9 +55,9 @@
         </section>
         <section>
           <h3 class="title">Completed</h3>
-          <ul id="completed-tasks">
+          <ul id="section__completed-tasks">
             <li class="task__list-item">
-              <input class="checkbox-input" type="checkbox" checked>
+              <input class="task__checkbox-input" type="checkbox" checked>
               <label class="task__item">See the Doctor</label>
               <input type="text" class="task__item task__input">
               <button class="task__edit-button button">Edit</button>

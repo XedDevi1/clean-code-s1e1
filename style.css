@@ -120,7 +120,7 @@ button {
   vertical-align: middle;
 }
 
-.task__list-item > .checkbox-input {
+.task__list-item > .task__checkbox-input {
   margin: 0 10px;
 }
 .task__list-item > label {
@@ -142,7 +142,7 @@ button {
 }
 
 /* Completed */
-#completed-tasks label {
+#section__completed-tasks label {
   text-decoration: line-through;
   color: #888;
 }
