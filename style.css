@@ -35,7 +35,7 @@
 .task__item {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 
 .form__add-item-container {
@@ -130,7 +130,7 @@ button {
   width: 226px;
 }
 .task__list-item > .task__input {
-  width: 226px
+  width: 226px;
 }
 .task__delete-button img {
   height: 2em;
@@ -149,12 +149,12 @@ button {
 
 /* Edit Task */
 .task__list-item .task__input {
-  display: none
+  display: none;
 }
 
 .task__edit--mode .task__input {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 .task__edit--mode label {
